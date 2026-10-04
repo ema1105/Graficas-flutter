@@ -2,7 +2,7 @@
 
 Listado de todas las clases de grafica definidas en el proyecto, por libreria y grupo, con su "para que sirve" (campo `paraQue` del codigo).
 
-##Comandos de arranque
+## Comandos de arranque
 - flutter clean
 - flutter pub get
 - flutter run
