@@ -5,15 +5,7 @@ import 'package:syncfusion_flutter_charts/sparkcharts.dart' as spark;
 
 import '../../mock/datos_mock.dart';
 
-// ============================================================
-// Syncfusion — 10 GRAFICAS BASICAS
-// Libreria comercial (gratis en su edicion Community). Modelo
-// declarativo: se pasa la lista de datos y funciones mapeadoras que
-// indican de donde salen X e Y. Ningun tipo se repite con las otras
-// librerias del taller.
-// ============================================================
 
-/// 1. Columnas.
 class SfColumnas extends StatelessWidget {
   const SfColumnas({super.key});
   @override

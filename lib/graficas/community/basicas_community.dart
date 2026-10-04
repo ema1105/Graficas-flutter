@@ -4,14 +4,6 @@ import 'package:flutter/material.dart';
 import '../../core/lienzo_descrito.dart';
 import '../../mock/datos_mock.dart';
 
-// ============================================================
-// community_charts — 20 GRAFICAS BASICAS
-// Las 10 primeras son los tipos fundamentales. Las 10 siguientes son
-// COMBINACIONES. Fork de Google Charts, nativo en Dart. Modelo por
-// Series: domainFn (X), measureFn (Y), data. Las listas de series se
-// tipan <dynamic, DOMINIO> porque los widgets lo exigen; PieChart
-// necesita el tipo concreto <String>. Todas con su explicacion.
-// ============================================================
 
 charts.Color _color(int i) {
   final paleta = <charts.Color>[
@@ -24,9 +16,6 @@ charts.Color _color(int i) {
   return paleta[i % paleta.length];
 }
 
-// ============================================================
-// PARTE 1 — LOS 10 TIPOS FUNDAMENTALES (ahora con descripcion)
-// ============================================================
 
 /// 1. Barras verticales.
 class CcBarras extends StatelessWidget {

@@ -5,13 +5,6 @@ import '../../core/lienzo_descrito.dart';
 import '../../mock/datos_mock.dart';
 import 'dart:math' as math;
 
-// ============================================================
-// fl_chart — 20 GRAFICAS BASICAS
-// Las 10 primeras son los tipos fundamentales. Las 10 siguientes son
-// COMBINACIONES: cada una fusiona dos o mas formas de visualizacion
-// para comunicar algo que ninguna de las partes dice por si sola.
-// Todas incluyen su explicacion (para que sirve / cuando usarla).
-// ============================================================
 
 List<Color> _paleta(BuildContext context) {
   final e = Theme.of(context).colorScheme;
@@ -40,10 +33,6 @@ FlTitlesData _titulos(List<String> cats) => FlTitlesData(
         ),
       ),
     );
-
-// ============================================================
-// PARTE 1 — LOS 10 TIPOS FUNDAMENTALES (ahora con descripcion)
-// ============================================================
 
 /// 1. Barras verticales.
 class FlBarras extends StatelessWidget {
@@ -490,11 +479,6 @@ class FlAreaGradiente extends StatelessWidget {
   }
 }
 
-
-// ============================================================
-// PARTE 2 — 10 COMBINACIONES
-// Cada una fusiona dos o mas formas de visualizacion.
-// ============================================================
 
 /// 11. Barras + linea de tendencia.
 /// Combina barras (valor por periodo) con una linea encima (tendencia).
